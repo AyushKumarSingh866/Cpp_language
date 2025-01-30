@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int i;
+    cout<<"Enter the number: ";
+    cin>>i;
+    switch (i)
+    {
+    case 1:
+    cout<<"Ayush";
+    break;
+
+    case 2:
+    cout<<"Dibya";
+    break;
+    
+    default:
+    cout<<"Ajit";
+    }
+} 
